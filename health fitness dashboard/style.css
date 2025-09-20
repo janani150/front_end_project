@@ -1,0 +1,12 @@
+/* Extra Custom Styling */
+body {
+    scroll-behavior: smooth;
+}
+
+header nav ul li a {
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+/* Custom Styles for EduLearn */
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hover Animation for Cards */
+section#courses .card,
+section#instructors .bg-white {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+section#courses .card:hover,
+section#instructors .bg-white:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Form */
+form input,
+form textarea {
+    outline: none;
+    transition: border 0.2s;
+}
+form input:focus,
+form textarea:focus {
+    border: 2px solid #2563eb; /* Tailwind blue-600 */
+}

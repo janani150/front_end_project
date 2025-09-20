@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Modern Login Form</title>
+
+    <!-- Boxicons for icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+
+    <!-- Google Font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <section class="login_box">
+        <!-- Header -->
+        <header class="login-header">
+          <h2>Login</h2>
+        </header>
+
+        <!-- Login Form -->
+        <form action="index.html" method="POST">
+          <div class="input_box">
+            <input type="text" id="user" class="input-field" required />
+            <label for="user" class="label">Username</label>
+            <i class="bx bx-user icon"></i>
+          </div>
+
+          <div class="input_box">
+            <input type="password" id="pass" class="input-field" required />
+            <label for="pass" class="label">Password</label>
+            <i class="bx bx-lock-alt icon"></i>
+          </div>
+
+          <!-- Remember & Forgot -->
+          <div class="remember-forgot">
+            <div class="remember-me">
+              <input type="checkbox" id="remember" />
+              <label for="remember">Remember me</label>
+            </div>
+            <div class="forgot">
+              <a href="#">Forgot password?</a>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="input_box">
+            <!--<input type="submit" class="input-submit" value="Login">-->
+            <button class="input-submit" type="button">
+              <a href="index.html">Login</a>
+            </button>
+          </div>
+        </form>
+
+        <!-- Footer / Register -->
+        <footer class="register">
+          <p>Don't have an account? <a href="#">Register</a></p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url("images/office-bg.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Internship Cards */
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Company Logos */
+.company-logo {
+    max-height: 80px;
+    /*object-fit: contain;*/
+    /*filter: grayscale(100%);
+    transition: filter 0.3s;*/
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+.company-logo:hover {
+    filter: grayscale(0%);
+}
+.container{
+    color: black;
+}
+#searchSection{
+    margin-top: -200px;
+    margin-bottom: 50px;
+}
