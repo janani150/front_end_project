@@ -72,5 +72,3 @@ We welcome contributions! Here’s how you can help:
 E-mail:janani8362@gmail.com
 
 
-```
-
