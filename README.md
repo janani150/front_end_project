@@ -1,4 +1,4 @@
-Here’s a nicely formatted `README.md` for the front-end project by janani150, complete with emojis:
+
 
 
 # Front-End Project by Janani150 🎉
