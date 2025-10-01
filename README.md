@@ -1,6 +1,6 @@
 Here’s a nicely formatted `README.md` for the front-end project by janani150, complete with emojis:
 
-```markdown
+
 # Front-End Project by Janani150 🎉
 
 Welcome to the **Front-End Project**! This repository is a collection of web applications designed to cater to various domains, providing users with useful tools and resources.
@@ -69,8 +69,8 @@ We welcome contributions! Here’s how you can help:
 
 ## Contact 📫
 
-Janani150 - [janani.email@example.com](mailto:janani.email@example.com)
+E-mail:janani8362@gmail.com
 
-Project Link: [GitHub Repository](https://github.com/janani150/front_end_project)
+
 ```
 
